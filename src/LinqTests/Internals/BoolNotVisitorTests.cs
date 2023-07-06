@@ -4,7 +4,7 @@ using Marten.Services;
 using Marten.Testing.Harness;
 using Xunit.Abstractions;
 
-namespace LinqTests;
+namespace LinqTests.Internals;
 
 public class BoolNotVisitorTests : OneOffConfigurationsContext
 {

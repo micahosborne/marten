@@ -9,7 +9,7 @@ using NpgsqlTypes;
 using Shouldly;
 using Weasel.Core;
 
-namespace LinqTests.Fields;
+namespace LinqTests.Internals;
 
 public class DuplicatedFieldTests
 {

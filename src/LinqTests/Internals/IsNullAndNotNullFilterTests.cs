@@ -3,7 +3,7 @@ using Marten.Linq.Filters;
 using NSubstitute;
 using Shouldly;
 
-namespace LinqTests.Parsing;
+namespace LinqTests.Internals;
 
 public class IsNullAndNotNullFilterTests
 {

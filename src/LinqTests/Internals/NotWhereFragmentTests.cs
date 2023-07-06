@@ -4,7 +4,7 @@ using Shouldly;
 using Weasel.Postgresql.SqlGeneration;
 using NotWhereFragment = Weasel.Postgresql.SqlGeneration.NotWhereFragment;
 
-namespace LinqTests.Parsing;
+namespace LinqTests.Internals;
 
 public class NotWhereFragmentTests
 {

@@ -9,7 +9,7 @@ using Marten.Testing.Documents;
 using Shouldly;
 using Weasel.Core;
 
-namespace LinqTests.Fields;
+namespace LinqTests.Internals;
 
 public class FieldCollectionTests
 {

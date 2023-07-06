@@ -1,6 +1,5 @@
 using System;
 using System.Linq;
-using DocumentDbTests.Reading.Linq;
 using Marten;
 using Marten.Testing.Harness;
 using Shouldly;

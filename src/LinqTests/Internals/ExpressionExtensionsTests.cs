@@ -2,7 +2,7 @@
 using Marten.Linq.Parsing;
 using Shouldly;
 
-namespace LinqTests;
+namespace LinqTests.Internals;
 
 public class ExpressionExtensionsTests
 {

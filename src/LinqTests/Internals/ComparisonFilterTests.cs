@@ -1,7 +1,7 @@
 using Shouldly;
 using Weasel.Postgresql.SqlGeneration;
 
-namespace LinqTests.Parsing;
+namespace LinqTests.Internals;
 
 public class ComparisonFilterTests
 {

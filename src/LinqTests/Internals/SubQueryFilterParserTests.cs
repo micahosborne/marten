@@ -1,16 +1,14 @@
 using System;
 using System.Linq;
 using System.Linq.Expressions;
-using JasperFx.Core;
 using JasperFx.Core.Reflection;
 using Marten.Linq.Parsing;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Remotion.Linq.Clauses;
 using Remotion.Linq.Clauses.Expressions;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq.Internals;
+namespace LinqTests.Internals;
 
 public class SubQueryFilterParserTests
 {

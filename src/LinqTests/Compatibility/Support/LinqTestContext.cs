@@ -66,13 +66,13 @@ public abstract class LinqTestContext<TSelf>
     protected static string[] readDescriptions()
     {
         var path = AppContext.BaseDirectory;
-        while (!path.EndsWith("DocumentDbTests"))
+        while (!path.EndsWith("LinqTests"))
         {
             path = path.ParentDirectory();
         }
 
         var filename = typeof(TSelf).Name + ".cs";
-        var codefile = path.AppendPath("Reading", "Linq", "Compatibility", filename);
+        var codefile = path.AppendPath("Compatibility", filename);
 
         var list = new List<string>();
 

@@ -80,13 +80,13 @@ Finally, you can query for child collections that do **not** contain a value:
 theSession.Query<DocWithArrays>().Count(x => !x.Strings.Contains("c"))
     .ShouldBe(2);
 ```
-<sup><a href='https://github.com/JasperFx/marten/blob/master/src/DocumentDbTests/Bugs/Bug_561_negation_of_query_on_contains.cs#L34-L37' title='Snippet source file'>snippet source</a> | <a href='#snippet-sample_negated-contains' title='Start of snippet'>anchor</a></sup>
+<sup><a href='https://github.com/JasperFx/marten/blob/master/src/LinqTests/Bugs/Bug_561_negation_of_query_on_contains.cs#L32-L35' title='Snippet source file'>snippet source</a> | <a href='#snippet-sample_negated-contains' title='Start of snippet'>anchor</a></sup>
 <a id='snippet-sample_negated-contains-1'></a>
 ```cs
 theSession.Query<DocWithArrays>().Count(x => !x.Strings.Contains("c"))
     .ShouldBe(2);
 ```
-<sup><a href='https://github.com/JasperFx/marten/blob/master/src/DocumentDbTests/Bugs/Bug_561_negation_of_query_on_contains.cs#L74-L77' title='Snippet source file'>snippet source</a> | <a href='#snippet-sample_negated-contains-1' title='Start of snippet'>anchor</a></sup>
+<sup><a href='https://github.com/JasperFx/marten/blob/master/src/LinqTests/Bugs/Bug_561_negation_of_query_on_contains.cs#L72-L75' title='Snippet source file'>snippet source</a> | <a href='#snippet-sample_negated-contains-1' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
 ## Querying within Value IEnumerables

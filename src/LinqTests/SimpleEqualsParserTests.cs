@@ -6,9 +6,8 @@ using System.Linq.Expressions;
 using Marten.Exceptions;
 using Marten.Linq;
 using Marten.Testing.Harness;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class SimpleEqualsParserTests : IntegrationContext
 {

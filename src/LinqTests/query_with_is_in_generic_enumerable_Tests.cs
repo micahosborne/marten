@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using Marten.Testing.Harness;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class query_with_is_in_generic_enumerable_Tests : IntegrationContext
 {

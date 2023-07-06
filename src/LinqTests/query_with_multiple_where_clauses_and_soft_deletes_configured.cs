@@ -3,9 +3,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Marten;
 using Marten.Testing.Harness;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class query_with_multiple_where_clauses_and_soft_deletes_configured : OneOffConfigurationsContext
 {

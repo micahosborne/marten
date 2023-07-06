@@ -4,9 +4,8 @@ using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
 using Weasel.Core;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class using_containment_operator_in_linq_Tests: OneOffConfigurationsContext
 {

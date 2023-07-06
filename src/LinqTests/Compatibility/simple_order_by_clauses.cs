@@ -1,7 +1,7 @@
 using System.Linq;
-using DocumentDbTests.Reading.Linq.Compatibility.Support;
+using LinqTests.Compatibility.Support;
 
-namespace DocumentDbTests.Reading.Linq.Compatibility;
+namespace LinqTests.Compatibility;
 
 public class simple_order_by_clauses: LinqTestContext<simple_order_by_clauses>
 {

@@ -3,10 +3,9 @@ using System.Linq;
 using Marten;
 using Marten.Testing.Harness;
 using Shouldly;
-using Xunit;
 using Xunit.Abstractions;
 
-namespace DocumentDbTests.Reading.Linq.ChildCollections;
+namespace LinqTests.ChildCollections;
 
 public class count_for_child_collections : OneOffConfigurationsContext
 {

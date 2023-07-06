@@ -2,9 +2,8 @@ using Marten.Linq.Fields;
 using Marten.Linq.Filters;
 using NSubstitute;
 using Shouldly;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq.Parsing;
+namespace LinqTests.Parsing;
 
 public class IsNullAndNotNullFilterTests
 {

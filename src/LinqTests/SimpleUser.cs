@@ -1,6 +1,6 @@
 using System;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class SimpleUser
 {

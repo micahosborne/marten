@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Marten;
 using Shouldly;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class LinqExtensionsTests
 {

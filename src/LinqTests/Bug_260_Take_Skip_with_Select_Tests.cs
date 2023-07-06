@@ -4,9 +4,8 @@ using Marten.Linq;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class Bug_260_Take_Skip_with_Select_Tests: IntegrationContext
 {

@@ -4,9 +4,8 @@ using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
 using Weasel.Postgresql.SqlGeneration;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class matches_sql_queries: IntegrationContext
 {

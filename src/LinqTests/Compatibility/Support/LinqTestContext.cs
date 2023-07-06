@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 using JasperFx.Core;
 using Marten;
 using Marten.Testing.Documents;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq.Compatibility.Support;
+namespace LinqTests.Compatibility.Support;
 
 [CollectionDefinition("linq")]
 public class LinqCollection: ICollectionFixture<DefaultQueryFixture>

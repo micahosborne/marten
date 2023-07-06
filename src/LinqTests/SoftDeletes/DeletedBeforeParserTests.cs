@@ -3,13 +3,11 @@ using System.Linq.Expressions;
 using Marten;
 using Marten.Linq.SoftDeletes;
 using Marten.Schema;
-using Marten.Services;
 using Marten.Testing.Harness;
 using Npgsql;
 using Weasel.Postgresql;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq.SoftDeletes;
+namespace LinqTests.SoftDeletes;
 
 public class DeletedBeforeParserTests
 {

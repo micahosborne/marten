@@ -2,7 +2,7 @@ using System.Threading.Tasks;
 using Marten;
 using Marten.Testing.Documents;
 
-namespace DocumentDbTests.Reading.Linq.Compatibility.Support;
+namespace LinqTests.Compatibility.Support;
 
 public abstract class LinqTestCase
 {

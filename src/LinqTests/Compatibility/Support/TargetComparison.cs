@@ -5,7 +5,7 @@ using Marten;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 
-namespace DocumentDbTests.Reading.Linq.Compatibility.Support;
+namespace LinqTests.Compatibility.Support;
 
 public class TargetComparison: LinqTestCase
 {

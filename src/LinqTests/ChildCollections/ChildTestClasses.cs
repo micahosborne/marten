@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DocumentDbTests.Reading.Linq.ChildCollections;
+namespace LinqTests.ChildCollections;
 
 public class Root
 {

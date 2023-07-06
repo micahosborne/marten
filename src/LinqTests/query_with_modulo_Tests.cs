@@ -1,9 +1,8 @@
 using System.Linq;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class query_with_modulo_Tests : IntegrationContext
 {

@@ -3,10 +3,9 @@ using System.Linq;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
-using Xunit;
 using Xunit.Abstractions;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class query_with_nested_boolean_logic_Tests : IntegrationContext
 {

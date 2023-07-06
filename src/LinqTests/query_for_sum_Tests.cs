@@ -3,9 +3,8 @@ using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
 using Weasel.Core;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class query_for_sum_Tests: IntegrationContext
 {

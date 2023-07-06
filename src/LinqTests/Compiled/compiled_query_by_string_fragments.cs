@@ -7,9 +7,8 @@ using Marten.Linq;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq.Compiled;
+namespace LinqTests.Compiled;
 
 public class compiled_query_by_string_fragments : IntegrationContext
 {

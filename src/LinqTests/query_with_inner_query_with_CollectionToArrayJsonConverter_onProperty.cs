@@ -8,10 +8,9 @@ using Marten.Services.Json;
 using Marten.Testing.Harness;
 using Newtonsoft.Json;
 using Shouldly;
-using Xunit;
 using Xunit.Abstractions;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class TypeWithInnerCollectionsWithJsonConverterAttribute
 {

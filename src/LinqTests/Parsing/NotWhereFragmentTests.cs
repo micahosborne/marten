@@ -1,12 +1,10 @@
-using JasperFx.CodeGeneration.Util;
 using JasperFx.Core.Reflection;
 using NSubstitute;
 using Shouldly;
 using Weasel.Postgresql.SqlGeneration;
-using Xunit;
 using NotWhereFragment = Weasel.Postgresql.SqlGeneration.NotWhereFragment;
 
-namespace DocumentDbTests.Reading.Linq.Parsing;
+namespace LinqTests.Parsing;
 
 public class NotWhereFragmentTests
 {

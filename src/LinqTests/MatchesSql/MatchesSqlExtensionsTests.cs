@@ -2,9 +2,8 @@
 using Marten.Linq.MatchesSql;
 using Shouldly;
 using Weasel.Postgresql.SqlGeneration;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq.MatchesSql;
+namespace LinqTests.MatchesSql;
 
 public class MatchesSqlExtensionsTests
 {

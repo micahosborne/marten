@@ -5,9 +5,8 @@ using Marten;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class query_with_order_by_dynamic_props_tests: IntegrationContext
 {

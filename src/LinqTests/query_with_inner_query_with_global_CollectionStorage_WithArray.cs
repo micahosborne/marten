@@ -7,9 +7,8 @@ using Marten;
 using Marten.Services;
 using Marten.Testing.Harness;
 using Shouldly;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class TypeWithInnerCollections
 {

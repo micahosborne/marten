@@ -2,9 +2,8 @@
 using Marten;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class query_with_is_empty : IntegrationContext
 {

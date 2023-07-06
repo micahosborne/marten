@@ -1,11 +1,8 @@
 using System.Linq;
 using System.Threading.Tasks;
-using DocumentDbTests.Reading.Linq.Compatibility.Support;
-using Marten.Services.Json;
-using Marten.Testing.Harness;
-using Xunit;
+using LinqTests.Compatibility.Support;
 
-namespace DocumentDbTests.Reading.Linq.Compatibility;
+namespace LinqTests.Compatibility;
 
 public class select_transforms: LinqTestContext<select_transforms>
 {

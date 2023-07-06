@@ -7,9 +7,8 @@ using Marten.Services.Json;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class invoking_query_with_select_Tests: IntegrationContext
 {

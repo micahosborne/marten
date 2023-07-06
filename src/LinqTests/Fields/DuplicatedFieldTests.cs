@@ -8,9 +8,8 @@ using Marten.Testing.Documents;
 using NpgsqlTypes;
 using Shouldly;
 using Weasel.Core;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq.Fields;
+namespace LinqTests.Fields;
 
 public class DuplicatedFieldTests
 {

@@ -10,10 +10,9 @@ using Marten.Linq;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
-using Xunit;
 using Xunit.Abstractions;
 
-namespace DocumentDbTests.Reading.Linq.Compiled;
+namespace LinqTests.Compiled;
 
 public class compiled_query_Tests: IntegrationContext
 {

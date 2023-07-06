@@ -4,9 +4,8 @@ using System.Threading.Tasks;
 using Marten;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class invoking_queryable_through_single_async_Tests: IntegrationContext
 {

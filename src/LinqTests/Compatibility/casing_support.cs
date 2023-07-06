@@ -7,9 +7,8 @@ using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
 using Weasel.Core;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq.Compatibility;
+namespace LinqTests.Compatibility;
 
 public class casing_support: OneOffConfigurationsContext
 {

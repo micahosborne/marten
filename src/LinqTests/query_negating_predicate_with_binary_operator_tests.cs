@@ -2,9 +2,8 @@ using System;
 using System.Linq;
 using Marten.Testing.Harness;
 using Shouldly;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class query_negating_predicate_with_binary_operator_tests : IntegrationContext
 {

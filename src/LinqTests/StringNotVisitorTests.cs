@@ -3,10 +3,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
-using Xunit;
 using Xunit.Abstractions;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class StringNotVisitorTests : IntegrationContext
 {

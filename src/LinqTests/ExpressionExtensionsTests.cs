@@ -1,9 +1,8 @@
 ﻿using System.Linq.Expressions;
 using Marten.Linq.Parsing;
 using Shouldly;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class ExpressionExtensionsTests
 {

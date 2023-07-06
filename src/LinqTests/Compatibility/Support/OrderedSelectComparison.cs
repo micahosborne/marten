@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Shouldly;
 
-namespace DocumentDbTests.Reading.Linq.Compatibility.Support;
+namespace LinqTests.Compatibility.Support;
 
 public class OrderedSelectComparison<T>: LinqTestCase
 {

@@ -3,9 +3,8 @@ using Marten;
 using Marten.Schema;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 // Change type mapping to treat "unknown" PG types as jsonb -> null checks depths at arbitrary depths don't fail due to CAST
 public class IsNullNotNullArbitraryDepthTests : IntegrationContext

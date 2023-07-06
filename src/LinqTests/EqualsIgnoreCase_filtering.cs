@@ -3,9 +3,8 @@ using JasperFx.Core;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class EqualsIgnoreCase_filtering: IntegrationContext
 {

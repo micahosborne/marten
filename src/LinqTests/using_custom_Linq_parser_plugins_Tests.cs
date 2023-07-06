@@ -12,9 +12,8 @@ using Marten.Testing.Harness;
 using Shouldly;
 using Weasel.Core;
 using Weasel.Postgresql.SqlGeneration;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class using_custom_Linq_parser_plugins_Tests
 {

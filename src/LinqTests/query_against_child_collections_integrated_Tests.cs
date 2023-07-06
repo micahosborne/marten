@@ -9,10 +9,9 @@ using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
 using Weasel.Core;
-using Xunit;
 using Xunit.Abstractions;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class query_against_child_collections_integrated_Tests : OneOffConfigurationsContext
 {

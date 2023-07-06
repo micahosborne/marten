@@ -1,8 +1,7 @@
 using Shouldly;
 using Weasel.Postgresql.SqlGeneration;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq.Parsing;
+namespace LinqTests.Parsing;
 
 public class ComparisonFilterTests
 {

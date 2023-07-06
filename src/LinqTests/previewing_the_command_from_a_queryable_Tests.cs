@@ -4,10 +4,9 @@ using Marten.Linq;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
-using Xunit;
 using Xunit.Abstractions;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class previewing_the_command_from_a_queryable_Tests : OneOffConfigurationsContext
 {

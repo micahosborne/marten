@@ -1,9 +1,8 @@
 using System.Linq;
 using System.Threading.Tasks;
-using DocumentDbTests.Reading.Linq.Compatibility.Support;
-using Xunit;
+using LinqTests.Compatibility.Support;
 
-namespace DocumentDbTests.Reading.Linq.Compatibility;
+namespace LinqTests.Compatibility;
 
 public class take_and_skip: LinqTestContext<take_and_skip>
 {

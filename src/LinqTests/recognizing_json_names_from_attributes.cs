@@ -7,9 +7,8 @@ using Marten.Services;
 using Marten.Testing.Harness;
 using Newtonsoft.Json;
 using Shouldly;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class recognizing_json_names_from_attributes
 {

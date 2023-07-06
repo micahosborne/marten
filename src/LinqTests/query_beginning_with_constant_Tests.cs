@@ -1,10 +1,9 @@
 using System.Linq;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
-using Xunit;
 using Xunit.Abstractions;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class query_beginning_with_equal_to_value_Tests : IntegrationContext
 {

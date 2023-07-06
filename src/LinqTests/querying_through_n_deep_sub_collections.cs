@@ -5,10 +5,9 @@ using System.Threading.Tasks;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
-using Xunit;
 using Xunit.Abstractions;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class querying_through_n_deep_sub_collections : IntegrationContext
 {

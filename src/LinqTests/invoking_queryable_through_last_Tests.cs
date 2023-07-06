@@ -2,9 +2,8 @@ using System;
 using System.Linq;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class invoking_queryable_through_last_Tests: IntegrationContext
 {

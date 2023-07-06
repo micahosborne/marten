@@ -2,9 +2,8 @@
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class using_const_boolean_in_where_clause_Tests : IntegrationContext
 {

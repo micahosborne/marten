@@ -2,10 +2,9 @@ using System;
 using System.Linq;
 using Marten.Services;
 using Marten.Testing.Harness;
-using Xunit;
 using Xunit.Abstractions;
 
-namespace DocumentDbTests.Reading.Linq;
+namespace LinqTests;
 
 public class BoolNotVisitorTests : OneOffConfigurationsContext
 {

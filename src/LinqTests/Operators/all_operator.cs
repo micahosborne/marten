@@ -4,11 +4,11 @@ using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
 
-namespace LinqTests;
+namespace LinqTests.Operators;
 
-public class invoking_queryable_all_operation_tests: IntegrationContext
+public class all_operator: IntegrationContext
 {
-    public invoking_queryable_all_operation_tests(DefaultStoreFixture fixture) : base(fixture)
+    public all_operator(DefaultStoreFixture fixture) : base(fixture)
     {
     }
 

@@ -5,9 +5,9 @@ using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
 
-namespace LinqTests;
+namespace LinqTests.Operators;
 
-public class invoking_queryable_through_to_list_async_Tests : IntegrationContext
+public class to_list_operator : IntegrationContext
 {
     #region sample_using-to-list-async
     [Fact]
@@ -39,7 +39,7 @@ public class invoking_queryable_through_to_list_async_Tests : IntegrationContext
         users.ShouldBeEmpty();
     }
 
-    public invoking_queryable_through_to_list_async_Tests(DefaultStoreFixture fixture) : base(fixture)
+    public to_list_operator(DefaultStoreFixture fixture) : base(fixture)
     {
     }
 }

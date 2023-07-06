@@ -6,11 +6,11 @@ using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
 
-namespace LinqTests;
+namespace LinqTests.Operators;
 
-public class invoking_query_with_ToAsyncEnumerable : IntegrationContext
+public class AsyncEnumerable : IntegrationContext
 {
-    public invoking_query_with_ToAsyncEnumerable(DefaultStoreFixture fixture) : base(fixture)
+    public AsyncEnumerable(DefaultStoreFixture fixture) : base(fixture)
     {
     }
 

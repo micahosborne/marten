@@ -5,9 +5,8 @@ using Marten.Linq.SqlGeneration;
 using NSubstitute;
 using Shouldly;
 using Weasel.Postgresql;
-using Xunit;
 
-namespace DocumentDbTests.Reading.Linq.Internals;
+namespace LinqTests.Internals;
 
 public class DummyStatement: Statement
 {

@@ -40,5 +40,5 @@ public async Task query_to_async_enumerable()
     }
 }
 ```
-<sup><a href='https://github.com/JasperFx/marten/blob/master/src/LinqTests/invoking_query_with_ToAsyncEnumerable.cs#L17-L42' title='Snippet source file'>snippet source</a> | <a href='#snippet-sample_query_to_async_enumerable' title='Start of snippet'>anchor</a></sup>
+<sup><a href='https://github.com/JasperFx/marten/blob/master/src/LinqTests/Operators/async_enumerable.cs#L17-L42' title='Snippet source file'>snippet source</a> | <a href='#snippet-sample_query_to_async_enumerable' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->

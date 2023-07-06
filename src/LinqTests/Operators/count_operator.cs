@@ -5,9 +5,9 @@ using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 using Shouldly;
 
-namespace LinqTests;
+namespace LinqTests.Operators;
 
-public class invoking_queryable_count_Tests: IntegrationContext
+public class count_operator: IntegrationContext
 {
     [Fact]
     public void count_without_any_where()
@@ -115,7 +115,65 @@ public class invoking_queryable_count_Tests: IntegrationContext
     }
 
     #endregion
-    public invoking_queryable_count_Tests(DefaultStoreFixture fixture) : base(fixture)
+
+
+    [Fact]
+    public async Task count_without_any_where_async()
+    {
+        theSession.Store(new Target { Number = 1 });
+        theSession.Store(new Target { Number = 2 });
+        theSession.Store(new Target { Number = 3 });
+        theSession.Store(new Target { Number = 4 });
+        await theSession.SaveChangesAsync();
+
+        var result = await theSession.Query<Target>().CountAsync();
+        result.ShouldBe(4);
+    }
+
+    [Fact]
+    public async Task long_count_without_any_where_async()
+    {
+        theSession.Store(new Target { Number = 1 });
+        theSession.Store(new Target { Number = 2 });
+        theSession.Store(new Target { Number = 3 });
+        theSession.Store(new Target { Number = 4 });
+        await theSession.SaveChangesAsync();
+
+        var result = await theSession.Query<Target>().LongCountAsync();
+        result.ShouldBe(4);
+    }
+
+    [Fact]
+    public async Task count_with_a_where_clause_async()
+    {
+        theSession.Store(new Target { Number = 1 });
+        theSession.Store(new Target { Number = 2 });
+        theSession.Store(new Target { Number = 3 });
+        theSession.Store(new Target { Number = 4 });
+        theSession.Store(new Target { Number = 5 });
+        theSession.Store(new Target { Number = 6 });
+        await theSession.SaveChangesAsync();
+
+        var result = await theSession.Query<Target>().CountAsync(x => x.Number > 3);
+        result.ShouldBe(3);
+    }
+
+    [Fact]
+    public async Task long_count_with_a_where_clause_async()
+    {
+        theSession.Store(new Target { Number = 1 });
+        theSession.Store(new Target { Number = 2 });
+        theSession.Store(new Target { Number = 3 });
+        theSession.Store(new Target { Number = 4 });
+        theSession.Store(new Target { Number = 5 });
+        theSession.Store(new Target { Number = 6 });
+        await theSession.SaveChangesAsync();
+
+        var result = await theSession.Query<Target>().LongCountAsync(x => x.Number > 3);
+        result.ShouldBe(3);
+    }
+
+    public count_operator(DefaultStoreFixture fixture) : base(fixture)
     {
     }
 }

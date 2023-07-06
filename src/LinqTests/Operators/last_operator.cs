@@ -3,9 +3,9 @@ using System.Linq;
 using Marten.Testing.Documents;
 using Marten.Testing.Harness;
 
-namespace LinqTests;
+namespace LinqTests.Operators;
 
-public class invoking_queryable_through_last_Tests: IntegrationContext
+public class last_operator: IntegrationContext
 {
     [Fact]
     public void last_throws_an_exception()
@@ -23,7 +23,7 @@ public class invoking_queryable_through_last_Tests: IntegrationContext
         });
     }
 
-    public invoking_queryable_through_last_Tests(DefaultStoreFixture fixture) : base(fixture)
+    public last_operator(DefaultStoreFixture fixture) : base(fixture)
     {
     }
 }
